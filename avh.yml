@@ -6,4 +6,6 @@ backend:
     instance-type: t2.micro
 upload:
 steps:
+  - run: |
+      uname -a
 download:
