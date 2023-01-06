@@ -2,7 +2,7 @@ name: "AVH Demo"
 workdir: ./
 backend:
   aws:
-    ami-version: ~=1.1
+    ami-version: 1.1.0
     instance-type: t2.micro
 upload:
 steps:
